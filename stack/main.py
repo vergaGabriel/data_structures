@@ -24,11 +24,3 @@ class Stack:
 
     def size(self):
         return length(self.items)
-
-stack = Stack()
-stack.push(8)
-stack.push(10)
-stack.push(9)
-
-print(stack.peek())
-
